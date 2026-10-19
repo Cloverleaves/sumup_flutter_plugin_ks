@@ -102,6 +102,6 @@ dependencies {
     api 'com.sumup:merchant-sdk:7.1.0'
     // Tap-to-Pay SDK: only when partner Maven credentials are supplied (see note above).
     if (ttpEnabled) {
-        implementation 'com.sumup.tap-to-pay:utopia-sdk:1.1.5'
+        implementation 'com.sumup.tap-to-pay:utopia-sdk:1.1.6'
     }
 }
